@@ -2,7 +2,7 @@ var today=moment();
 $("#currentDay").text(today.format("dddd, MMMM Do"));
 console.log('wkday,month,day',currentDay);
 
-console.log($(".container").children(".row"))
+
 var computerTime=today.format("HH");
 console.log("Time is ",computerTime);
 
